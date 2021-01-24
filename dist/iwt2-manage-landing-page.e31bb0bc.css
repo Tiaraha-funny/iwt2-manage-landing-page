@@ -1,0 +1,101 @@
+body {
+    font-family: 'Be Vietnam' , Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0;
+    background-image: url(/bg-tablet-pattern.7e77589d.svg);
+    background-size: 115%;
+    background-repeat: repeat-y;
+    background-position-x: 26px;
+    background-position-y: -52px;
+}
+
+@media (min-width: 1000px) {
+    article {
+        background-image: none;
+    }
+
+    body {
+        padding-left: 80px;
+    }
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Bold.f705fab4.woff') format('woff2'),
+        url('/BeVietnam-Bold.f705fab4.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Medium.631c3c19.woff2') format('woff2'),
+        url('/BeVietnam-Medium.5615250f.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Regular.3e404d36.woff2') format('woff2'),
+        url('/BeVietnam-Regular.2834b5d8.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-SemiBold.410b563c.woff2') format('woff2'),
+        url('/BeVietnam-SemiBold.a19f247f.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Thin.ada598b8.woff2') format('woff2'),
+        url('/BeVietnam-Thin.6229832f.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Light.a63fe09a.woff2') format('woff2'),
+        url('/BeVietnam-Light.c7843892.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-Italic.048c6625.woff2') format('woff2'),
+        url('/BeVietnam-Italic.2bd30dfb.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/BeVietnam-BoldItalic.fd23ee3c.woff2') format('woff2'),
+        url('/BeVietnam-BoldItalic.e6fe31c1.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+/*# sourceMappingURL=/iwt2-manage-landing-page.e31bb0bc.css.map */
