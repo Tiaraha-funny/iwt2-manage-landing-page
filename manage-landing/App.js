@@ -9,8 +9,8 @@ export default function App() {
       <article>
         <HeaderContainer />
         <MainHeadingsContainer />
-        <DifferentManageContainer />
       </article>
+      <DifferentManageContainer />
     </main>
   );
 }

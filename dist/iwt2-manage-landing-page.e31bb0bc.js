@@ -32069,7 +32069,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  padding: 20px;\n  width: 74px;\n  border-radius: 35px;\n  border: none;\n  text-align: center;\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -32079,7 +32079,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  list-style: none;\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -32089,7 +32089,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  text-align: center;\n  margin: 0;\n  padding: 0;\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -32119,7 +32119,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 99%);\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  height: 57px;\n\n  @media (min-width: 1000px) {\n    background-color: transparent;\n    margin-left: -20px;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32129,7 +32129,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n@media (min-width: 1000px) {\n  text-align: start;\n  margin:0;\n}\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32139,7 +32139,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\n  padding: 30px;\n  text-align: center;\n\n  @media (min-width: 1000px) {\n    display: flex;\n    justify-content: space-between;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32813,7 +32813,7 @@ var _mainHeadings = _interopRequireDefault(require("./Containers/main-headings")
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null)));
+  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null));
 }
 },{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
@@ -32929,7 +32929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55268" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49686" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
