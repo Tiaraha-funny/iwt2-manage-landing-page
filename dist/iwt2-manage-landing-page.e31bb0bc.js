@@ -32059,7 +32059,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject9() {
-  var data = _taggedTemplateLiteral([""]);
+  var data = _taggedTemplateLiteral(["\nmargin-left: 20px;\ntext-align: left;\n  @media (min-width: 1000px) {\n  }\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -32069,7 +32069,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  padding: 20px;\n  width: 74px;\n  border-radius: 35px;\n  border: none;\n  text-align: center;\n"]);
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  color: #ffffff;\n  font-size: 16px;\n  font-weight: 600;\n  padding: 15px;\n  width: 74px;\n  border-radius: 35px;\n  border: none;\n  text-align: center;\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -32079,7 +32079,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral(["\n  list-style: none;\n"]);
+  var data = _taggedTemplateLiteral(["\n  list-style: none;\n  text-align: left;\n  @media (min-width: 1000px) {\n    p {\n      margin-left: 74px;\n    }\n  }\n\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -32119,7 +32119,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 99%);\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  height: 57px;\n\n  @media (min-width: 1000px) {\n    background-color: transparent;\n    margin-left: -20px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 99%);\n  display: flex;\n  align-items: center;\n  height: 45px;\n\n  @media (min-width: 1000px) {\n    background-color: transparent;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32129,7 +32129,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n@media (min-width: 1000px) {\n  text-align: start;\n  margin:0;\n}\n"]);
+  var data = _taggedTemplateLiteral(["\n  @media (min-width: 1000px) {\n    text-align: start;\n    margin-right: 100px;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32182,7 +32182,7 @@ var Button = _styledComponents.default.button(_templateObject8());
 
 exports.Button = Button;
 
-var SubTitle = _styledComponents.default.h4(_templateObject9());
+var SubTitle = _styledComponents.default.h3(_templateObject9());
 
 exports.SubTitle = SubTitle;
 },{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/DiffentManage/index.js":[function(require,module,exports) {
@@ -32610,7 +32610,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 30px;\n  color: hsl(228, 39%, 23%);\n  @media (min-width: 1000px) {\n    font-size: 40px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 30px;\n  @media (min-width: 1000px) {\n    font-size: 40px;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32630,7 +32630,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  padding: 30px;\n  margin: 0;\n  text-align: center;\n\n  @media (min-width: 1000px) {\n    display: flex;\n    flex-direction: row-reverse;\n    justify-content: space-between;\n    text-align: left;\n\n    .cover {\n      max-width: 370px;\n      margin-inline-end: 147px;\n    }\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  padding: 30px;\n  margin: 0;\n  text-align: center;\n\n  @media (min-width: 1000px) {\n    display: flex;\n    flex-direction: row-reverse;\n    justify-content: space-between;\n    text-align: left;\n\n    .cover {\n      max-width: 370px;\n      margin: 0;\n    }\n\n    img {\n      width: 60%;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32929,7 +32929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49686" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52191" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

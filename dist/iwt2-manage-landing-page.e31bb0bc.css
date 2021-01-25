@@ -14,6 +14,10 @@ article {
     background-position-y: -52px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(228, 39%, 25%);
+}
+
 @media (min-width: 1000px) {
     article {
         background-image: none;

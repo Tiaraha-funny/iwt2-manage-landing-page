@@ -13,7 +13,11 @@ export const Container = styled.section`
 
     .cover {
       max-width: 370px;
-      margin-inline-end: 147px;
+      margin: 0;
+    }
+
+    img {
+      width: 60%;
     }
   }
 `;
@@ -24,7 +28,6 @@ export const Title = styled.img`
 
 export const SubTitle = styled.h1`
   font-size: 30px;
-  color: hsl(228, 39%, 23%);
   @media (min-width: 1000px) {
     font-size: 40px;
   }
