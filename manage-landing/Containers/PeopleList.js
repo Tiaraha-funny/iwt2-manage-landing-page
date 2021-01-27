@@ -3,6 +3,7 @@ import PeopleLists from "../components/peopleLists";
 import { Container } from "../components/peopleLists/styles/peopleLists";
 
 import People from "../../people";
+import GetStartBtnContainer from "./GetStartBtn";
 
 export default function PeopleListContainer() {
   const [showSlide, setShowSlide] = useState(false);
@@ -79,6 +80,8 @@ export default function PeopleListContainer() {
           <PeopleLists.Dots onClick={handleLastShow}></PeopleLists.Dots>
         </PeopleLists.SlideDots>
       </PeopleLists.Lists>
+
+      <GetStartBtnContainer />
     </Container>
   );
 }
