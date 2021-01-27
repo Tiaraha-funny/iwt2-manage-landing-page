@@ -3,6 +3,7 @@ import DifferentManageContainer from "./Containers/DifferentManage";
 import HeaderContainer from "./Containers/header";
 import MainHeadingsContainer from "./Containers/main-headings";
 import PeopleListContainer from "./Containers/PeopleList";
+import SimplificationContainer from "./Containers/simplification";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       </article>
       <DifferentManageContainer />
       <PeopleListContainer />
+      <SimplificationContainer/>
     </main>
   );
 }

@@ -9,5 +9,5 @@ export const Container = styled.button`
   cursor: pointer;
   border-radius: 20px;
   font-size: 15px;
-  box-shadow: 0px 3px 3px grey;
+  box-shadow: 2px 7px 10px hsl(13,100%,76%);
 `;

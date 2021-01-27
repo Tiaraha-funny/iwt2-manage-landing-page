@@ -10,7 +10,11 @@ margin-bottom: 120px;
 export const Lists = styled.ul`
 padding: 20px;
 margin: 0;
+@media (min-width: 1000px) { 
+  margin:0;
+}
 `;
+
 export const Items = styled.li`
   list-style: none;
   background-color: hsl(0, 0%, 98%);
@@ -20,6 +24,10 @@ export const Items = styled.li`
   animation-duration: 1.5s;
 
   margin-bottom: 130px;
+
+  @media (min-width: 1000px) {
+    margin-right: 50px;
+  }
 `;
 export const Description = styled.p`
   font-size: 18px;
@@ -33,9 +41,12 @@ margin-top: -76px;
 export const Names = styled.h3``;
 
 export const SlideImages = styled.div`
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+
+  @media (min-width: 1000px) {
+    display: flex;
+    margin:0;
+  }
 `;
 
 export const SlideDots = styled.div``;

@@ -32714,7 +32714,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  color: white;\n  padding: 12px;\n  width: 130px;\n  border: none;\n  cursor: pointer;\n  border-radius: 20px;\n  font-size: 15px;\n  box-shadow: 0px 3px 3px grey;\n"]);
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  color: white;\n  padding: 12px;\n  width: 130px;\n  border: none;\n  cursor: pointer;\n  border-radius: 20px;\n  font-size: 15px;\n  box-shadow: 2px 7px 10px hsl(13,100%,76%);\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32837,7 +32837,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n  max-width: 1000px;\n  position: relative;\n  margin: auto;\n"]);
+  var data = _taggedTemplateLiteral(["\n  position: relative;\n\n  @media (min-width: 1000px) {\n    display: flex;\n    margin:0;\n  }\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -32877,7 +32877,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n  list-style: none;\n  background-color: hsl(0, 0%, 98%);\n  -webkit-animation-name: fade;\n  -webkit-animation-duration: 1.5s;\n  animation-name: fade;\n  animation-duration: 1.5s;\n\n  margin-bottom: 130px;\n"]);
+  var data = _taggedTemplateLiteral(["\n  list-style: none;\n  background-color: hsl(0, 0%, 98%);\n  -webkit-animation-name: fade;\n  -webkit-animation-duration: 1.5s;\n  animation-name: fade;\n  animation-duration: 1.5s;\n\n  margin-bottom: 130px;\n\n  @media (min-width: 1000px) {\n    margin-right: 50px;\n  }\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -32887,7 +32887,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\npadding: 20px;\nmargin: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\npadding: 20px;\nmargin: 0;\n@media (min-width: 1000px) { \n  margin:0;\n}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -33094,6 +33094,8 @@ var _peopleLists2 = require("../components/peopleLists/styles/peopleLists");
 
 var _people = _interopRequireDefault(require("../../people"));
 
+var _GetStartBtn = _interopRequireDefault(require("./GetStartBtn"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
@@ -33154,9 +33156,121 @@ function PeopleListContainer() {
     onClick: handleSecondeShow
   }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Dots, {
     onClick: handleLastShow
-  }))));
+  }))), /*#__PURE__*/_react.default.createElement(_GetStartBtn.default, null));
 }
-},{"react":"node_modules/react/index.js","../components/peopleLists":"manage-landing/components/peopleLists/index.js","../components/peopleLists/styles/peopleLists":"manage-landing/components/peopleLists/styles/peopleLists.js","../../people":"people.js"}],"manage-landing/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/peopleLists":"manage-landing/components/peopleLists/index.js","../components/peopleLists/styles/peopleLists":"manage-landing/components/peopleLists/styles/peopleLists.js","../../people":"people.js","./GetStartBtn":"manage-landing/Containers/GetStartBtn.js"}],"manage-landing/components/simplification/styles/simplification.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Title = exports.Button = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n  font-size: 45px;\n  color: #ffffff;\n\n  @media (min-width: 1000px) {\n    max-width: 500px;\n    text-align: start;\n    padding-left: 100px;\n  }\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n  background-color: #ffffff;\n  color: hsl(12, 88%, 59%);\n  padding: 12px;\n  width: 130px;\n  border: none;\n  cursor: pointer;\n  border-radius: 20px;\n  font-size: 15px;\n  box-shadow: 0px 3px 3px grey;\n  @media (min-width: 1000px) {\n    height: 40px;\n    margin-right: 100px;\n  }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  background-color: hsl(12, 88%, 59%);\n  margin-left: -80px;\n  margin-top: 80px;\n  text-align: center;\n\n  @media (min-width: 1000px) {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.section(_templateObject());
+
+exports.Container = Container;
+
+var Button = _styledComponents.default.button(_templateObject2());
+
+exports.Button = Button;
+
+var Title = _styledComponents.default.h1(_templateObject3());
+
+exports.Title = Title;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/simplification/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Simplification;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _simplification = require("./styles/simplification");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Simplification(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_simplification.Container, restProps, children);
+}
+
+Simplification.Title = function SimplificationTitle(_ref2) {
+  var children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_simplification.Title, restProps, children);
+};
+
+Simplification.Button = function SimplificationButton(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_simplification.Button, restProps, children);
+};
+},{"react":"node_modules/react/index.js","./styles/simplification":"manage-landing/components/simplification/styles/simplification.js"}],"manage-landing/Containers/simplification.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = SimplificationContainer;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _simplification = _interopRequireDefault(require("../components/simplification"));
+
+var _simplification2 = require("../components/simplification/styles/simplification");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function SimplificationContainer() {
+  return /*#__PURE__*/_react.default.createElement(_simplification2.Container, null, /*#__PURE__*/_react.default.createElement(_simplification.default.Title, null, "Simpify how your team works today"), /*#__PURE__*/_react.default.createElement(_simplification.default.Button, null, "Get sart"));
+}
+},{"react":"node_modules/react/index.js","../components/simplification":"manage-landing/components/simplification/index.js","../components/simplification/styles/simplification":"manage-landing/components/simplification/styles/simplification.js"}],"manage-landing/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33174,12 +33288,14 @@ var _mainHeadings = _interopRequireDefault(require("./Containers/main-headings")
 
 var _PeopleList = _interopRequireDefault(require("./Containers/PeopleList"));
 
+var _simplification = _interopRequireDefault(require("./Containers/simplification"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null), /*#__PURE__*/_react.default.createElement(_PeopleList.default, null));
+  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null), /*#__PURE__*/_react.default.createElement(_PeopleList.default, null), /*#__PURE__*/_react.default.createElement(_simplification.default, null));
 }
-},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js","./Containers/PeopleList":"manage-landing/Containers/PeopleList.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js","./Containers/PeopleList":"manage-landing/Containers/PeopleList.js","./Containers/simplification":"manage-landing/Containers/simplification.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -33293,7 +33409,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55996" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55340" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

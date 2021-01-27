@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Button} from "./styles/simplification";
+import {Container, Title, Button} from "./styles/simplification";
 
 export default function Simplification({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
