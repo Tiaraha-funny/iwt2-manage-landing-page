@@ -12,10 +12,17 @@ article {
     background-repeat: repeat-y;
     background-position-x: 26px;
     background-position-y: -52px;
+
+    
+}
+
+h2 {
+    font-size: 35px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: hsl(228, 39%, 25%);
+    font-weight: 900;
 }
 
 @media (min-width: 1000px) {

@@ -1,4 +1,17 @@
 import React from "react";
+import {
+  Container,
+  Title,
+  Images,
+  Items,
+  Lists,
+  Description,
+  Names,
+  Dots,
+  DotIndicator,
+  SlideDots,
+  SlideImages,
+} from "./styles/peopleLists";
 
 export default function PeopleLists({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
@@ -28,5 +41,30 @@ PeopleLists.Description = function PeopleListsDescription({
 };
 
 PeopleLists.Images = function PeopleListsImages({ ...restProps }) {
-  return <Images {...restProps} />
+  return <Images {...restProps} />;
+};
+
+PeopleLists.SlideImages = function PeopleListsSlideImages({
+  children,
+  ...restProps
+}) {
+  return <SlideImages {...restProps}>{children}</SlideImages>;
+};
+
+PeopleLists.SlideDots = function PeopleListsSlideDots({
+  children,
+  ...restProps
+}) {
+  return <SlideDots {...restProps}>{children}</SlideDots>;
+};
+
+PeopleLists.DotIndicator = function PeopleListsDotIndicator({
+  children,
+  ...restProps
+}) {
+  return <DotIndicator {...restProps}>{children}</DotIndicator>;
+};
+
+PeopleLists.Dots = function PeopleListsDots({ children, ...restProps }) {
+  return <Dots {...restProps}>{children}</Dots>;
 };

@@ -32610,7 +32610,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  font-size: 30px;\n  @media (min-width: 1000px) {\n    font-size: 40px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-size: 40px;\n  @media (min-width: 1000px) {\n    font-size: 40px;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32794,7 +32794,369 @@ function MainHeadingsContainer() {
     className: "cover"
   }, /*#__PURE__*/_react.default.createElement(_mainHeadings.default.SubTitle, null, "Bring everyone together tobuild better products"), /*#__PURE__*/_react.default.createElement(_mainHeadings.default.Description, null, "Manage makes it simplefor software team to plan day-to-day tasks while keeping the larger teams goals in view"), /*#__PURE__*/_react.default.createElement(_GetStartBtn.default, null)));
 }
-},{"react":"node_modules/react/index.js","../components/main-headings":"manage-landing/components/main-headings/index.js","../components/main-headings/styles/main-headings":"manage-landing/components/main-headings/styles/main-headings.js","./GetStartBtn":"manage-landing/Containers/GetStartBtn.js"}],"manage-landing/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/main-headings":"manage-landing/components/main-headings/index.js","../components/main-headings/styles/main-headings":"manage-landing/components/main-headings/styles/main-headings.js","./GetStartBtn":"manage-landing/Containers/GetStartBtn.js"}],"manage-landing/components/peopleLists/styles/peopleLists.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.DotIndicator = exports.Dots = exports.SlideDots = exports.SlideImages = exports.Names = exports.Images = exports.Description = exports.Items = exports.Lists = exports.Title = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject11() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject11 = function _templateObject11() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject10() {
+  var data = _taggedTemplateLiteral(["\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  margin: 0 2px;\n  background-color: transparent;\n  border: 1px solid hsl(12, 88%, 59%);\n  border-radius: 50%;\n  display: inline-block;\n  transition: background-color 0.6s ease;\n\n  :hover {\n    background-color: hsl(12, 88%, 59%);\n  }\n"]);
+
+  _templateObject10 = function _templateObject10() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject9() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject9 = function _templateObject9() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject8() {
+  var data = _taggedTemplateLiteral(["\n  max-width: 1000px;\n  position: relative;\n  margin: auto;\n"]);
+
+  _templateObject8 = function _templateObject8() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject7() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\nmargin-top: -76px;\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral(["\n  font-size: 18px;\n  color: gray;\n  padding: 10px;\n  padding-bottom: 40px;\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n  list-style: none;\n  background-color: hsl(0, 0%, 98%);\n  -webkit-animation-name: fade;\n  -webkit-animation-duration: 1.5s;\n  animation-name: fade;\n  animation-duration: 1.5s;\n\n  margin-bottom: 130px;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\npadding: 20px;\nmargin: 0;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\nmargin-bottom: 120px;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\ntext-align: center;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.section(_templateObject());
+
+exports.Container = Container;
+
+var Title = _styledComponents.default.h2(_templateObject2());
+
+exports.Title = Title;
+
+var Lists = _styledComponents.default.ul(_templateObject3());
+
+exports.Lists = Lists;
+
+var Items = _styledComponents.default.li(_templateObject4());
+
+exports.Items = Items;
+
+var Description = _styledComponents.default.p(_templateObject5());
+
+exports.Description = Description;
+
+var Images = _styledComponents.default.img(_templateObject6());
+
+exports.Images = Images;
+
+var Names = _styledComponents.default.h3(_templateObject7());
+
+exports.Names = Names;
+
+var SlideImages = _styledComponents.default.div(_templateObject8());
+
+exports.SlideImages = SlideImages;
+
+var SlideDots = _styledComponents.default.div(_templateObject9());
+
+exports.SlideDots = SlideDots;
+
+var Dots = _styledComponents.default.span(_templateObject10());
+
+exports.Dots = Dots;
+
+var DotIndicator = _styledComponents.default.a(_templateObject11());
+
+exports.DotIndicator = DotIndicator;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/peopleLists/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = PeopleLists;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _peopleLists = require("./styles/peopleLists");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function PeopleLists(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Container, restProps, children);
+}
+
+PeopleLists.Title = function PeopleListsTitle(_ref2) {
+  var children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Title, restProps, children);
+};
+
+PeopleLists.Lists = function PeopleListsLists(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Lists, restProps, children);
+};
+
+PeopleLists.Items = function PeopleListsItems(_ref4) {
+  var children = _ref4.children,
+      restProps = _objectWithoutProperties(_ref4, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Items, restProps, children);
+};
+
+PeopleLists.Names = function PeopleListsNames(_ref5) {
+  var children = _ref5.children,
+      restProps = _objectWithoutProperties(_ref5, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Names, restProps, children);
+};
+
+PeopleLists.Description = function PeopleListsDescription(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Description, restProps, children);
+};
+
+PeopleLists.Images = function PeopleListsImages(_ref7) {
+  var restProps = Object.assign({}, _ref7);
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Images, restProps);
+};
+
+PeopleLists.SlideImages = function PeopleListsSlideImages(_ref8) {
+  var children = _ref8.children,
+      restProps = _objectWithoutProperties(_ref8, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.SlideImages, restProps, children);
+};
+
+PeopleLists.SlideDots = function PeopleListsSlideDots(_ref9) {
+  var children = _ref9.children,
+      restProps = _objectWithoutProperties(_ref9, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.SlideDots, restProps, children);
+};
+
+PeopleLists.DotIndicator = function PeopleListsDotIndicator(_ref10) {
+  var children = _ref10.children,
+      restProps = _objectWithoutProperties(_ref10, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.DotIndicator, restProps, children);
+};
+
+PeopleLists.Dots = function PeopleListsDots(_ref11) {
+  var children = _ref11.children,
+      restProps = _objectWithoutProperties(_ref11, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_peopleLists.Dots, restProps, children);
+};
+},{"react":"node_modules/react/index.js","./styles/peopleLists":"manage-landing/components/peopleLists/styles/peopleLists.js"}],"people.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.People = void 0;
+var People = [{
+  name: "Anisha Li",
+  image: "images/avatar-anisha.png",
+  description: "Manage has superchrgedour team's workflow. The ability to maintain on larger milestones at a all times keeps everyone motivated."
+}, {
+  name: "Ali Bravo",
+  image: "images/avatar-ali.png",
+  description: "We have been able to cancel so many subscriptions since using Manage. There is no more cross-channel confusion and everyone much more focused."
+}, {
+  name: "Richard Watts",
+  image: "images/avatar-richard.png",
+  description: "Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to."
+}, {
+  name: "Shanai Gough",
+  image: "images/avatar-shanai.png",
+  description: "Their software allows us to track, manage and collaborate on our project from anywhere. It keeps the whole team in async without being intrusive."
+}];
+exports.People = People;
+},{}],"manage-landing/Containers/PeopleList.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = PeopleListContainer;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _peopleLists = _interopRequireDefault(require("../components/peopleLists"));
+
+var _peopleLists2 = require("../components/peopleLists/styles/peopleLists");
+
+var _people = _interopRequireDefault(require("../../people"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function PeopleListContainer() {
+  var _useState = (0, _react.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      showSlide = _useState2[0],
+      setShowSlide = _useState2[1];
+
+  var _useState3 = (0, _react.useState)([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      slide = _useState4[0],
+      setSlide = _useState4[1];
+
+  (0, _react.useEffect)(function () {
+    setSlide(_people.default);
+  }, []);
+
+  function handleDefaultShow() {
+    setShowSlide(true);
+  }
+
+  function handleSecondeShow() {
+    setShowSlide(true);
+  }
+
+  function handleLastShow() {
+    setShowSlide(true);
+  }
+
+  console.log("slide", slide, _people.default);
+  return /*#__PURE__*/_react.default.createElement(_peopleLists2.Container, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Title, null, "What's they have said"), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Lists, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.SlideImages, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Items, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Images, {
+    src: "images/avatar-anisha.png"
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Names, null, "Anisha Li"), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Description, null, "\"Manage has superchrgedour team's workflow. The ability to maintain on larger milestones at a all times keeps everyone motivated.\"")), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Items, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Images, {
+    src: "images/avatar-ali.png"
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Names, null, "Ali Bravo"), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Description, null, "\"We have been able to cancel so many subscriptions since using Manage. There is no more cross-channel confusion and everyone much more focused.\"")), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Items, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Images, {
+    src: "images/avatar-richard.png"
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Names, null, "Richard Watts"), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Description, null, "\"Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to.\"")), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Items, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Images, {
+    src: "images/avatar-shanai.png"
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Names, null, "Shanai Gough"), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Description, null, "\"Their software allows us to track, manage and collaborate on our project from anywhere. It keeps the whole team in async without being intrusive.\""))), /*#__PURE__*/_react.default.createElement(_peopleLists.default.SlideDots, null, /*#__PURE__*/_react.default.createElement(_peopleLists.default.Dots, {
+    onClick: handleDefaultShow
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Dots, {
+    onClick: handleSecondeShow
+  }), /*#__PURE__*/_react.default.createElement(_peopleLists.default.Dots, {
+    onClick: handleLastShow
+  }))));
+}
+},{"react":"node_modules/react/index.js","../components/peopleLists":"manage-landing/components/peopleLists/index.js","../components/peopleLists/styles/peopleLists":"manage-landing/components/peopleLists/styles/peopleLists.js","../../people":"people.js"}],"manage-landing/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -32810,12 +33172,14 @@ var _header = _interopRequireDefault(require("./Containers/header"));
 
 var _mainHeadings = _interopRequireDefault(require("./Containers/main-headings"));
 
+var _PeopleList = _interopRequireDefault(require("./Containers/PeopleList"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null));
+  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null), /*#__PURE__*/_react.default.createElement(_PeopleList.default, null));
 }
-},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js","./Containers/PeopleList":"manage-landing/Containers/PeopleList.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -32929,7 +33293,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52191" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55996" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

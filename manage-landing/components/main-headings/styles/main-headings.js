@@ -27,7 +27,7 @@ export const Title = styled.img`
 `;
 
 export const SubTitle = styled.h1`
-  font-size: 30px;
+  font-size: 40px;
   @media (min-width: 1000px) {
     font-size: 40px;
   }
