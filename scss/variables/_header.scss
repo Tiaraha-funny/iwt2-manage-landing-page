@@ -1,0 +1,16 @@
+.headings {
+  background-image: url(../../webroot/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: 215px;
+  background-position-y: -298px;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .headings {
+    background-position-x: 510px;
+    background-position-y: -176px;
+  }
+}

@@ -1,0 +1,36 @@
+.simplification {
+    background-color: hsl(12, 88%, 59%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.simplification__header h2 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.simplification__button {
+    background-color: #ffffff;
+    color: hsl(12, 88%, 59%);
+    border-radius: 15px;
+    width: 150px;
+    padding: 16px;
+    font-size: 15px;
+}
+
+@media (min-width: 1000px) {
+    .simplification {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 70px;
+    }
+
+    .simplification__header {
+        max-width: 500px;
+        text-align: start;
+    }
+}

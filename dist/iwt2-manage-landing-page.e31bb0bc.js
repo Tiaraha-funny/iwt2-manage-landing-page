@@ -32284,7 +32284,390 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function DifferentManageContainer() {
   return /*#__PURE__*/_react.default.createElement(_DifferentManage.Container, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Cover, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Title, null, "What's different about manage"), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Description, null, "Manage provides all the functionality your team need, without complexity. Our software is tailor-made for modern digital products teams.")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Lists, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Items, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubCover, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Button, null, "01"), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubTitle, null, "Track company-wide progress")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Description, null, "See how your day-to-day tasks fit into the wider vision. Go from tracking progressat the milestone leve all the way done to the smallest of details. Never lose sight of the bigger picture again.")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Items, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubCover, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Button, null, "02"), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubTitle, null, "Advanced built-in reports")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Description, null, "Set internal delivery estimates and track progress towards company goals. Our constomisable dashboardhelps you build out the reports you need to keep key stakeholder informed.")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Items, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubCover, null, /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Button, null, "03"), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.SubTitle, null, "Everything you need in one place")), /*#__PURE__*/_react.default.createElement(_DiffentManage.default.Description, null, "Stop jumping from one service to another to comminucate, store file, strack tasks and share documents Manage offers an all-in-one team productivity solution."))));
 }
-},{"react":"node_modules/react/index.js","../components/DiffentManage":"manage-landing/components/DiffentManage/index.js","../components/DiffentManage/styles/DifferentManage":"manage-landing/components/DiffentManage/styles/DifferentManage.js"}],"manage-landing/components/headings/styles/header.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/DiffentManage":"manage-landing/components/DiffentManage/index.js","../components/DiffentManage/styles/DifferentManage":"manage-landing/components/DiffentManage/styles/DifferentManage.js"}],"manage-landing/components/footer/styles/footer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Icons = exports.TitleManage = exports.GoBtn = exports.NavigationFooter = exports.CoverInputs = exports.CoverIcons = exports.Anchor = exports.Items = exports.Lists = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject10() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject10 = function _templateObject10() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject9() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject9 = function _templateObject9() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject8() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject8 = function _templateObject8() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject7() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.footer(_templateObject());
+
+exports.Container = Container;
+
+var Lists = _styledComponents.default.ul(_templateObject2());
+
+exports.Lists = Lists;
+
+var Items = _styledComponents.default.li(_templateObject3());
+
+exports.Items = Items;
+
+var Anchor = _styledComponents.default.a(_templateObject4());
+
+exports.Anchor = Anchor;
+
+var CoverIcons = _styledComponents.default.div(_templateObject5());
+
+exports.CoverIcons = CoverIcons;
+
+var CoverInputs = _styledComponents.default.div(_templateObject6());
+
+exports.CoverInputs = CoverInputs;
+
+var NavigationFooter = _styledComponents.default.nav(_templateObject7());
+
+exports.NavigationFooter = NavigationFooter;
+
+var GoBtn = _styledComponents.default.button(_templateObject8());
+
+exports.GoBtn = GoBtn;
+
+var TitleManage = _styledComponents.default.img(_templateObject9());
+
+exports.TitleManage = TitleManage;
+
+var Icons = _styledComponents.default.img(_templateObject10());
+
+exports.Icons = Icons;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/footer/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Footer;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _footer = require("./styles/footer");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Footer(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.Container, restProps, children);
+}
+
+Footer.CoverInputs = function FooterCoverInputs(_ref2) {
+  var children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.CoverInputs, restProps, children);
+};
+
+Footer.Inputs = function FooterInputs(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.Inputs, restProps);
+};
+
+Footer.GoBtn = function FooterGoBtn(_ref4) {
+  var children = _ref4.children,
+      restProps = _objectWithoutProperties(_ref4, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.GoBtn, restProps, children);
+};
+
+Footer.NavigationFooter = function FooterNavigationFooter(_ref5) {
+  var children = _ref5.children,
+      restProps = _objectWithoutProperties(_ref5, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(NavigationFooter, restProps, children);
+};
+
+Footer.Lists = function FooterLists(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.Lists, restProps, children);
+};
+
+Footer.Items = function FooterItems(_ref7) {
+  var children = _ref7.children,
+      restProps = _objectWithoutProperties(_ref7, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.Items, restProps, children);
+};
+
+Footer.Anchor = function FooterAnchor(_ref8) {
+  var children = _ref8.children,
+      restProps = _objectWithoutProperties(_ref8, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(Anchor, restProps);
+};
+
+Footer.CoverIcons = function FooterCoverIcons(_ref9) {
+  var children = _ref9.children,
+      restProps = _objectWithoutProperties(_ref9, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.CoverIcons, restProps, children);
+};
+
+Footer.Icons = function FooterIcons(_ref10) {
+  var children = _ref10.children,
+      restProps = _objectWithoutProperties(_ref10, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.Image, restProps);
+};
+
+Footer.TitleManage = function FooterTitleManage(_ref11) {
+  var children = _ref11.children,
+      restProps = _objectWithoutProperties(_ref11, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_footer.TitleManage, restProps, children);
+};
+},{"react":"node_modules/react/index.js","./styles/footer":"manage-landing/components/footer/styles/footer.js"}],"manage-landing/components/navigation/styles/navigation.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Anchor = exports.Items = exports.Lists = exports.Container = void 0;
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\ntext-decoration: none;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\nlist-style: none;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-direction: column;\nline-height: 40px;\n\n@media (min-width: 1000px) {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n}\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\nbackground-color: #ffffff;\nbox-shadow: 2px 3px 5px black;\ntext-align: center;\nwidth: 60%;\nmargin: auto;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Container = _styledComponents.default.nav(_templateObject());
+
+exports.Container = Container;
+
+var Lists = _styledComponents.default.ul(_templateObject2());
+
+exports.Lists = Lists;
+
+var Items = _styledComponents.default.li(_templateObject3());
+
+exports.Items = Items;
+
+var Anchor = _styledComponents.default.a(_templateObject4());
+
+exports.Anchor = Anchor;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/navigation/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Navigation;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _navigation = require("./styles/navigation");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Navigation(_ref) {
+  var children = _ref.children,
+      restProps = _objectWithoutProperties(_ref, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_navigation.Container, restProps, children);
+}
+
+Navigation.Lists = function NavigationLists(_ref2) {
+  var children = _ref2.children,
+      restProps = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_navigation.Lists, restProps, children);
+};
+
+Navigation.Items = function NavigationItems(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_navigation.Items, restProps, children);
+};
+
+Navigation.Anchor = function NavigationAnchor(_ref4) {
+  var restProps = Object.assign({}, _ref4);
+  return /*#__PURE__*/_react.default.createElement(_navigation.Anchor, restProps);
+};
+},{"react":"node_modules/react/index.js","./styles/navigation":"manage-landing/components/navigation/styles/navigation.js"}],"manage-landing/Containers/Footer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = FooterContainer;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _footer = _interopRequireDefault(require("../components/footer"));
+
+var _footer2 = require("../components/footer/styles/footer");
+
+var _navigation = _interopRequireDefault(require("../components/navigation"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function FooterContainer() {
+  return /*#__PURE__*/_react.default.createElement(_footer2.Container, null, /*#__PURE__*/_react.default.createElement(_footer.default.CoverInputs, null, /*#__PURE__*/_react.default.createElement(_footer.default.Inputs, {
+    type: "text",
+    placeholder: "Updates in your inbox..."
+  }), /*#__PURE__*/_react.default.createElement(_footer.default.GoBtn, null, "Go")), /*#__PURE__*/_react.default.createElement(_footer.default.NavigationFooter, null, /*#__PURE__*/_react.default.createElement(_footer.default.Lists, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Home")), /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Pricing")), /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Product")), /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "About Us"))), /*#__PURE__*/_react.default.createElement(_footer.default.Lists, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Careers")), /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Community")), /*#__PURE__*/_react.default.createElement(_navigation.default.Items, null, /*#__PURE__*/_react.default.createElement(_navigation.default.Anchor, null, "Privancy Policy")))), /*#__PURE__*/_react.default.createElement(_footer.default.CoverIcons, null));
+}
+},{"react":"node_modules/react/index.js","../components/footer":"manage-landing/components/footer/index.js","../components/footer/styles/footer":"manage-landing/components/footer/styles/footer.js","../components/navigation":"manage-landing/components/navigation/index.js"}],"manage-landing/components/headings/styles/header.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -32398,119 +32781,7 @@ Header.Nav = function HeaderNav(_ref4) {
 
   return /*#__PURE__*/_react.default.createElement(_header.Nav, restProps);
 };
-},{"react":"node_modules/react/index.js","./styles/header":"manage-landing/components/headings/styles/header.js"}],"manage-landing/components/navigation/styles/navigation.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Anchor = exports.Items = exports.Lists = exports.Container = void 0;
-
-var _styledComponents = _interopRequireDefault(require("styled-components"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\ntext-decoration: none;\n"]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\nlist-style: none;\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-direction: column;\nline-height: 40px;\n\n@media (min-width: 1000px) {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n}\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\nbackground-color: #ffffff;\nbox-shadow: 2px 3px 5px black;\ntext-align: center;\nwidth: 60%;\nmargin: auto;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var Container = _styledComponents.default.nav(_templateObject());
-
-exports.Container = Container;
-
-var Lists = _styledComponents.default.ul(_templateObject2());
-
-exports.Lists = Lists;
-
-var Items = _styledComponents.default.li(_templateObject3());
-
-exports.Items = Items;
-
-var Anchor = _styledComponents.default.a(_templateObject4());
-
-exports.Anchor = Anchor;
-},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"manage-landing/components/navigation/index.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Navigation;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _navigation = require("./styles/navigation");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function Navigation(_ref) {
-  var children = _ref.children,
-      restProps = _objectWithoutProperties(_ref, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(_navigation.Container, restProps, children);
-}
-
-Navigation.Lists = function NavigationLists(_ref2) {
-  var children = _ref2.children,
-      restProps = _objectWithoutProperties(_ref2, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(_navigation.Lists, restProps, children);
-};
-
-Navigation.Items = function NavigationItems(_ref3) {
-  var children = _ref3.children,
-      restProps = _objectWithoutProperties(_ref3, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(_navigation.Items, restProps, children);
-};
-
-Navigation.Anchor = function NavigationAnchor(_ref4) {
-  var restProps = Object.assign({}, _ref4);
-  return /*#__PURE__*/_react.default.createElement(_navigation.Anchor, restProps);
-};
-},{"react":"node_modules/react/index.js","./styles/navigation":"manage-landing/components/navigation/styles/navigation.js"}],"manage-landing/Containers/navigation.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./styles/header":"manage-landing/components/headings/styles/header.js"}],"manage-landing/Containers/navigation.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33282,6 +33553,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _DifferentManage = _interopRequireDefault(require("./Containers/DifferentManage"));
 
+var _Footer = _interopRequireDefault(require("./Containers/Footer"));
+
 var _header = _interopRequireDefault(require("./Containers/header"));
 
 var _mainHeadings = _interopRequireDefault(require("./Containers/main-headings"));
@@ -33293,9 +33566,9 @@ var _simplification = _interopRequireDefault(require("./Containers/simplificatio
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null), /*#__PURE__*/_react.default.createElement(_PeopleList.default, null), /*#__PURE__*/_react.default.createElement(_simplification.default, null));
+  return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement(_header.default, null), /*#__PURE__*/_react.default.createElement(_mainHeadings.default, null)), /*#__PURE__*/_react.default.createElement(_DifferentManage.default, null), /*#__PURE__*/_react.default.createElement(_PeopleList.default, null), /*#__PURE__*/_react.default.createElement(_simplification.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
 }
-},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js","./Containers/PeopleList":"manage-landing/Containers/PeopleList.js","./Containers/simplification":"manage-landing/Containers/simplification.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Containers/DifferentManage":"manage-landing/Containers/DifferentManage.js","./Containers/Footer":"manage-landing/Containers/Footer.js","./Containers/header":"manage-landing/Containers/header.js","./Containers/main-headings":"manage-landing/Containers/main-headings.js","./Containers/PeopleList":"manage-landing/Containers/PeopleList.js","./Containers/simplification":"manage-landing/Containers/simplification.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -33409,7 +33682,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55340" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54439" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
